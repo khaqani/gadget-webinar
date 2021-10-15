@@ -1,0 +1,42 @@
+{
+  "name": "khaqani/gadget-webinar",
+  "version": "0.1.0",
+  "homepage": "https://github.com/larabook/gateway",
+  "description": "A Laravel package for connecting to all Iraninan payment  gateways",
+  "keywords": [
+    "laravel"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hamed Pakdaman",
+      "email": "pakdaman.it@gmail.com"
+    },
+    {
+      "name": "MohammadReza Honarkhah",
+      "email": "m.honar@gmail.com"
+    },
+    {
+      "name": "Amir Khorsandi",
+      "email": "Khorsandi@me.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Khaqani\\GadgetWebinar\\": "src/",
+      "Khaqani\\GadgetWebinar\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Khaqani\\GadgetWebinar\\GadgetWebinarServiceProvider"
+      ],
+      "aliases": {
+      }
+    }
+  }
+}
